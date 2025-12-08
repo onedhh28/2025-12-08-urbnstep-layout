@@ -48,8 +48,10 @@ table {
 }
 
 
+
 .body {
-    font-family: Noto sans-serif;
+    font-family: "Noto Sans TC";
+    
 }
 
 a:link {
@@ -71,7 +73,6 @@ color: #212529;
     height: 80px;
     margin-left: 312px;
     margin-right: 312px;
-    max-width: 1296px;
     background-color: aquamarine;
     align-items: center;
     
