@@ -47,6 +47,17 @@ table {
 	border-spacing: 0;
 }
 
+
+.body {
+    font-family: Noto sans-serif;
+}
+
+a:link {
+text-decoration:none;
+color: #212529;
+}
+
+
 .container {
     display: flex;
     flex-direction: column;
