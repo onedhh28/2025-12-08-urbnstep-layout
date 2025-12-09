@@ -259,11 +259,68 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 2;
 }   
 
-
 .time-sale {
+    position: relative;
     width: 100%;
-    height: 566px;
-    background-color: black;
+    height: auto;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.time-sale section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.time-sale h1 {
+    color: white;
+}
+
+.time-sale span {
+    color: #C0FA73;
+    font-size: 40px;
+}
+
+/* 檢查用色塊
+.time-sale h1, span {
+    background-color: aqua;
+}
+*/
+
+.time-sale h2 {
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
+
+.time-sale h5 {
+    color: #ADB5BD;
+    margin-bottom: 48px;
+    font-weight: 400;
+}
+
+
+.shop-now-button {
+    padding: 12px;
+    padding-right: 24px;
+    padding-left: 24px;
+    background-color: #C0FA73;
+    font-size: 16px;
+    line-height: 150%;
+    border-radius: 6px;
+}
+
+.time-sale-banner {
+    width: 100%;
+    height: auto;
 }
 
 .series {
