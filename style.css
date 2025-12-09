@@ -52,7 +52,7 @@ table {
 .body {
     font-family: "Noto Sans TC",;
     color: #212529;
-    font-weight: 500;   
+    font-weight: 500; 
 }
 
 /*===========================*/
@@ -238,7 +238,7 @@ color: #212529;
 }
 
 
-.best-seller {
+.best-seller, .series {
     display: flex;
     flex-direction: column;
     height: auto;
@@ -249,7 +249,7 @@ color: #212529;
     overflow: hidden;
 }
 
-.best-seller-product {
+.best-seller-product, .series-sort {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -259,7 +259,7 @@ color: #212529;
     height: auto;
 }
 
-.best-seller-product-item {
+.best-seller-product-item, .series-sort-item {
     position: relative;
     width: 100%;
     height: auto;
@@ -327,18 +327,26 @@ color: #212529;
 }
 
 
-
-
-
 .time-sale-banner {
     width: 100%;
     height: auto;
 }
 
-.series {
-    width: 100%;
-    height: 488px;
+
+.section-sort-list {
+    position: relative;
+
 }
+
+.series-sort-item-filter {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+}
+
+
 
 .style {
     width: 100%;
