@@ -51,7 +51,8 @@ table {
 
 .body {
     font-family: "Noto Sans TC";
-    
+    color: #212529;
+    font-weight: 500;   
 }
 
 a:link {
@@ -101,21 +102,123 @@ color: #212529;
     align-items: center;
 } 
 
-.hero {
+.banner {
+    position: relative;
+    display: flex;
     width: 100%;
     height: 800px;
     background-color: coral;
+    overflow: hidden;
+    align-items: center;
 }
+
+.header-banner {
+    position: absolute;
+    top:0px;
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+}
+
+.banner img {
+    width: auto;
+    height: 100%;
+}
+
+.banner-title {
+    position: absolute;
+    margin-left: 232px;
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.banner h1, h3 {
+    color: white;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 120%;
+}
+
+
+h4 {
+    font-size: 24px;
+    line-height: 120%;
+}
+
+h5 {
+    font-size: 20px;
+    line-height: 120%;
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 120%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
 
 .arrivals {
     display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 80px;
     width: 100%;
-    height: 1708px;
-    justify-content: center;
+    height: auto;
+    /*justify-content: center;*/
     align-items: center;
-    background-color: lightblue;
     
 }
+
+.prouct-list {
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    margin-left: 312px;
+    margin-right: 312px;
+    gap: 16px;
+    align-items: center;
+    justify-items: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 16px);
+}
+
+.product-item {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.item span {
+    font-size: 12px;
+}
+
+.item h6 {
+    line-height: 180%;
+}
+
 
 .best-seller {
     width: 100%;
