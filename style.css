@@ -363,7 +363,7 @@ color: #212529;
 .style-album {
     display: grid;
     grid-template-columns: repeat(6,1fr);
-    grid-tempalete-row: repeat(3,1fr);
+    grid-template-row: repeat(3,1fr);
     grid-auto-flow: dense;
     gap: 8px;
 }
