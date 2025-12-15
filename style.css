@@ -52,7 +52,7 @@ table {
 .body {
     font-family: "Noto Sans TC",;
     color: #212529;
-    font-weight: 500;   
+    font-weight: 500; 
 }
 
 /*===========================*/
@@ -238,7 +238,7 @@ color: #212529;
 }
 
 
-.best-seller {
+.best-seller, .series, .style {
     display: flex;
     flex-direction: column;
     height: auto;
@@ -249,7 +249,7 @@ color: #212529;
     overflow: hidden;
 }
 
-.best-seller-product {
+.best-seller-product, .series-sort, .style-album {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -259,7 +259,7 @@ color: #212529;
     height: auto;
 }
 
-.best-seller-product-item {
+.best-seller-product-item, .series-sort-item {
     position: relative;
     width: 100%;
     height: auto;
@@ -327,24 +327,62 @@ color: #212529;
 }
 
 
-
-
-
 .time-sale-banner {
     width: 100%;
     height: auto;
 }
 
-.series {
-    width: 100%;
-    height: 488px;
+
+.section-sort-list {
+    position: relative;
+
 }
 
-.style {
+.series-sort-item-filter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
     width: 100%;
-    height: 826px;
-    background-color: lightslategrey;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 7;
 }
+
+.section-sort-list a:hover .series-sort-item-filter {
+    /* 懸停時變為 80% 不透明 (20% 透明) */
+    background-color: rgba(0, 0, 0, 0.6); 
+}
+
+
+.style {
+    height: auto;
+}
+
+.style-album {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-tempalete-row: repeat(3,1fr);
+    grid-auto-flow: dense;
+    gap: 8px;
+}
+.style-album img {
+    max-width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+}
+
+.style-album-Square1 {
+    grid-column: 5 / span 2; 
+    grid-row: 1 / span 2;
+}
+
+.style-album-Square2 {
+    grid-column: 1 / span 2; 
+    grid-row: 2 / span 2;
+}
+
 
 .header-cta {
     width: 100%;
