@@ -473,14 +473,18 @@ color: #212529;
     margin-top: 64px;
     margin-bottom: 64px;
     margin: 312px;
-    gap: 24px;
-    background-color: #57A203;
+    gap: 16px;
 }
 
 .products-photo {
     flex: 3;
     display: flex;
-    background-color: #C0FA73;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.products img {
+    width: calc(50% - 8px);
 }
 
 .products-info {
