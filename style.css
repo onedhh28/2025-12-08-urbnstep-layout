@@ -103,6 +103,13 @@ text-decoration:none;
 color: #212529;
 }
 
+.slash {
+    width: auto;
+    margin-left: 12px;
+    margin-right: 12px;
+    line-height: 150%;
+}
+
 /*線條樣式*/
 .line {
     height: 1px;
@@ -487,9 +494,29 @@ color: #212529;
     width: calc(50% - 8px);
 }
 
+
 .products-info {
     flex: 2;
     display: flex;
-    width: 40%;
-    background-color: aqua;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #C0FA73;
 }
+
+.products-info span {
+    color: #6C757D;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.products-info .slash {
+    color: #DEE2E6;
+}
+
+.products-info h6 {
+    display: inline;
+    line-height: 150%;
+}
+
+
+
