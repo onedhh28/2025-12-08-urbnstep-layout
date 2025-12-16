@@ -500,10 +500,9 @@ color: #212529;
     display: flex;
     flex-direction: column;
     gap: 12px;
-    background-color: #C0FA73;
 }
 
-.products-info span {
+.products-info-sort {
     color: #6C757D;
     font-size: 16px;
     line-height: 150%;
@@ -514,6 +513,7 @@ color: #212529;
 }
 
 .products-info h6 {
+    color: #212529;
     display: inline;
     line-height: 150%;
 }
@@ -526,5 +526,17 @@ color: #212529;
 
 .products-info-price span{
     text-decoration: line-through
+}
+
+.products-info-content {
+    display: flex;
+    flex-direction: column;
+    line-height: 150%;
+    gap: 12px;
+    color: #212529;
+}
+
+.products-info-content span {
+    display: block;
 }
 
