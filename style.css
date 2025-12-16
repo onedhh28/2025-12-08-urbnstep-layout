@@ -557,6 +557,7 @@ color: #212529;
 .products-info-color-list {
     display: flex;
     flex-direction: row;
+    margin-top: 8px;
     gap: 8px;
 }
 
