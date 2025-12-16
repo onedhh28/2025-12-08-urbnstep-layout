@@ -530,7 +530,8 @@ color: #212529;
 }
 
 .products-info-price span{
-    text-decoration: line-through
+    text-decoration: line-through;
+    color: #ADB5BD;
 }
 
 .products-info-content {
