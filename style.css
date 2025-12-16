@@ -671,5 +671,16 @@ color: #212529;
     border-radius: 4px;
 }
 
+.products-info-details span {
+    display: block;
+    line-height: 150%;
+    color: #6C757D;
+    font-weight: 400;
+}
 
+.products-info-details .line {
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
 
