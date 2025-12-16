@@ -502,6 +502,11 @@ color: #212529;
     gap: 12px;
 }
 
+.products-info h6 {
+    font-weight: 500;
+
+}
+
 .products-info-sort {
     color: #6C757D;
     font-size: 16px;
@@ -538,5 +543,36 @@ color: #212529;
 
 .products-info-content span {
     display: block;
+}
+
+
+
+
+.products-info-color h6 {
+    display: block;
+    font-weight: 400;
+}
+
+.products-info-color-list {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+
+.products-info-color-card {
+    display: inline;
+    height: auto;
+
+}
+
+.products-info-color-card img {
+    width: 64px;
+}
+.products-info-color-card span {
+    display: block;
+    font-weight: 500;
+    text-align: center;
+    color: #6C757D;
 }
 
