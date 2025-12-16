@@ -81,6 +81,7 @@ h3 {
 
 h4 {
     font-size: 24px;
+    font: 700;
     line-height: 120%;
 }
 
@@ -101,6 +102,13 @@ h1, h2, h3, h4, h5, h6 {
 a:link {
 text-decoration:none;
 color: #212529;
+}
+
+.slash {
+    width: auto;
+    margin-left: 12px;
+    margin-right: 12px;
+    line-height: 150%;
 }
 
 /*線條樣式*/
@@ -124,6 +132,7 @@ color: #212529;
 }
 
 .block-button {
+    text-align: center;
     font-size: 16px;
     font-weight: 300;
     line-height: 150%;
@@ -133,6 +142,17 @@ color: #212529;
     border-radius: 4px;
     background-color: #212529;
     color: white;
+}
+
+.button-border {
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    border-color: #DEE2E6;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
 }
 
 /*===========================*/
@@ -256,7 +276,7 @@ color: #212529;
 }
 
 
-.best-seller, .series, .style {
+.best-seller, .series, .style, .products-info-recomms {
     display: flex;
     flex-direction: column;
     height: auto;
@@ -267,7 +287,7 @@ color: #212529;
     overflow: hidden;
 }
 
-.best-seller-product, .series-sort, .style-album {
+.best-seller-product, .series-sort, .style-album, .products-info-recomms-list {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -459,4 +479,213 @@ color: #212529;
     display: block;
     font-size: 12px;
     text-align: center;
+}
+
+
+
+
+/*PRODUCTS PAGE*/
+
+.products {
+    display: flex;
+    width: auto;
+    margin: 312px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    gap: 16px;
+}
+
+.products-photo {
+    flex: 3;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.products img {
+    width: calc(50% - 8px);
+}
+
+
+.products-info {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.products-info h6 {
+    font-weight: 500;
+
+}
+
+.products-info-sort {
+    color: #6C757D;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.products-info .slash {
+    color: #DEE2E6;
+}
+
+.products-info h6 {
+    color: #212529;
+    display: inline;
+    line-height: 150%;
+}
+
+.products-info-price h5 {
+    display: inline;
+    color: #57A203;
+    margin-right: 8px;
+}
+
+.products-info-price span{
+    text-decoration: line-through;
+    color: #ADB5BD;
+}
+
+.products-info-content {
+    display: flex;
+    flex-direction: column;
+    line-height: 150%;
+    gap: 12px;
+    color: #212529;
+    margin-bottom: 32px;
+}
+
+.products-info-content span {
+    display: block;
+}
+
+
+.products-info-color {
+    display: block;
+    height: auto;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.products-info-color-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+    gap: 8px;
+}
+
+
+.products-info-color-card {
+    display: inline;
+    height: auto;
+
+}
+
+.products-info-color-card img {
+    width: 64px;
+}
+.products-info-color-card span {
+    display: block;
+    font-weight: 500;
+    text-align: center;
+    color: #6C757D;
+}
+
+
+.products-info-size {
+    display: flex;
+    flex-direction: column;
+}
+
+.products-info-size-list {
+    display: grid;
+    margin-top: 8px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-auto-flow: dense;
+    gap: 8px;
+}
+
+.products-info-size span {
+    display: block;
+    margin-top: 8px;
+    color: #D74F4F;
+    font-size: 14px;
+}
+
+.size-button {
+    display: inline-block;
+}
+
+
+
+.button-border-oos {
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    color: #DEE2E6;
+    border-color: #DEE2E6;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+.products-info-cta {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    
+}
+
+
+
+.products-info-cta-border {
+    flex: 1;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    height: auto;
+    border-color: #212529;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.heart {
+    width: 20px;
+    height: 20px;
+    background-color: #D74F4F;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.products-info-cta-block {
+    flex: 1;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    background-color: #212529;
+    border-radius: 4px;
+}
+
+.products-info-details span {
+    display: block;
+    line-height: 150%;
+    color: #6C757D;
+    font-weight: 400;
+}
+
+.products-info-details .line {
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+
+
+.products-info-recomms-list h6, span {
+    line-height: 150%;
 }
