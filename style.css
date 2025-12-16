@@ -518,5 +518,13 @@ color: #212529;
     line-height: 150%;
 }
 
+.products-info-price h5 {
+    display: inline;
+    color: #57A203;
+    margin-right: 8px;
+}
 
+.products-info-price span{
+    text-decoration: line-through
+}
 
