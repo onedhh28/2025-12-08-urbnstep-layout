@@ -460,3 +460,32 @@ color: #212529;
     font-size: 12px;
     text-align: center;
 }
+
+
+
+
+/*PRODUCTS PAGE*/
+
+.products {
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    margin: 312px;
+    gap: 24px;
+    background-color: #57A203;
+}
+
+.products-photo {
+    flex: 3;
+    display: flex;
+    background-color: #C0FA73;
+}
+
+.products-info {
+    flex: 2;
+    display: flex;
+    width: 40%;
+    background-color: aqua;
+}
