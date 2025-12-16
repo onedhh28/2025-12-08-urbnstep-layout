@@ -49,13 +49,36 @@ table {
 
 
 
-.body {
-    font-family: "Noto Sans TC",;
+body {
+    font-family: "Noto Sans TC";
     color: #212529;
     font-weight: 500; 
 }
 
 /*===========================*/
+
+/*字體樣式*/
+@font-face {
+    font-family: 'Noto Sans TC';
+    src: url('/assets/fonts/NotoSansTC-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans TC';
+    src: url('/assets/fonts/NotoSansTC-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans TC';
+    src: url('/assets/fonts/NotoSansTC-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
 
 /*文字樣式*/
 
@@ -557,6 +580,7 @@ color: #212529;
 
 .products-info-content span {
     display: block;
+    font-weight: 400;
 }
 
 
@@ -676,6 +700,8 @@ color: #212529;
     line-height: 150%;
     color: #6C757D;
     font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
 }
 
 .products-info-details .line {
