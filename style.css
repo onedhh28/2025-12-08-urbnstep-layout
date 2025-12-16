@@ -488,10 +488,9 @@ color: #212529;
 .products {
     display: flex;
     width: auto;
-    height: auto;
+    margin: 312px;
     margin-top: 64px;
     margin-bottom: 64px;
-    margin: 312px;
     gap: 16px;
 }
 
