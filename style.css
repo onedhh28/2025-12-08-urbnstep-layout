@@ -594,6 +594,13 @@ color: #212529;
     gap: 8px;
 }
 
+.products-info-size span {
+    display: block;
+    margin-top: 8px;
+    color: #D74F4F;
+    font-size: 14px;
+}
+
 .size-button {
     display: inline-block;
 }
@@ -620,3 +627,4 @@ color: #212529;
     border-style: solid;
     border-radius: 4px;
 }
+
