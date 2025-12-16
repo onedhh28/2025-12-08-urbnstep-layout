@@ -276,7 +276,7 @@ color: #212529;
 }
 
 
-.best-seller, .series, .style {
+.best-seller, .series, .style, .products-info-recomms {
     display: flex;
     flex-direction: column;
     height: auto;
@@ -287,7 +287,7 @@ color: #212529;
     overflow: hidden;
 }
 
-.best-seller-product, .series-sort, .style-album {
+.best-seller-product, .series-sort, .style-album, .products-info-recomms-list {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -684,3 +684,8 @@ color: #212529;
     margin-bottom: 12px;
 }
 
+
+
+.products-info-recomms-list h6, span {
+    line-height: 150%;
+}
